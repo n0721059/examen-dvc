@@ -1,2 +1,26 @@
-/venv
+/.dvc_exam_env
 /clean_data.csv
+# Python env
+/venv/
+__pycache__/
+*.pyc
+*.pyo
+.dvc/*
+# Raw data (tracked by DVC, not Git)
+/data/raw_data/raw.csv
+/clean_data.csv
+
+# Scaled/processed CSVs (tracked by DVC)
+/data/processed/X_train.csv
+/data/processed/X_test.csv
+/data/processed/y_train.csv
+/data/processed/y_test.csv
+/data/processed/X_train_scaled.csv
+/data/processed/X_test_scaled.csv
+/data/processed/prediction.csv
+
+# Model binaries (tracked by DVC)
+/models/scaler.pkl
+/models/best_params.pkl
+/models/gbr_model.pkl
+/models/grid_search_results.csv

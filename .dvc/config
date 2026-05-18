@@ -1,0 +1,7 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/n0721059/examen-dvc.s3
+    access_key_id = ca39eb7bad5a34e43f384ee9de3b9d7534f77380
+    secret_access_key = ca39eb7bad5a34e43f384ee9de3b9d7534f77380
